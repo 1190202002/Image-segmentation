@@ -38,7 +38,7 @@ class UpSampling(nn.Module):
 class UNet(nn.Module):
     def __init__(self):
         super(UNet,self).__init__()
-        self.C1=Conv(3,64)
+        self.C1=Conv(1,64)
 
         self.D1=DownSampling(64)
         self.C2 = Conv(64, 128)
@@ -59,7 +59,7 @@ class UNet(nn.Module):
         self.C9=Conv(128,64)
 
         self.Th=torch.nn.Sigmoid()
-        self.pred=torch.nn.Conv2d(64,3,1,1)
+        self.pred=torch.nn.Conv2d(64,1,1,1)
 
     def forward(self,x):
         R1=self.C1(x)

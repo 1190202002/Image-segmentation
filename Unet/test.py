@@ -29,7 +29,7 @@ class Test:
                 i+=1
 
 if __name__ == '__main__':
-    t = Test("/home/yf/PycharmProjects/imagesegment/BUS Cases/test",'./model.plt', img_save_path=r'./result')
+    t = Test("../BUS Cases/test",'./model.plt', img_save_path=r'./result')
     t.test()
 
 

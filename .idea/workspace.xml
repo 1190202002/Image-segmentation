@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b75d206-74ee-4814-85db-512737b15a14" name="Changes" comment="threshold">
-      <change afterPath="$PROJECT_DIR$/Unet/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unet/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unet/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unet/unet.py" afterDir="false" />
+    <list default="true" id="9b75d206-74ee-4814-85db-512737b15a14" name="Changes" comment="4method">
+      <change afterPath="$PROJECT_DIR$/draw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unet/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unet/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unet/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unet/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unet/unet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unet/unet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;1190202002&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f0b4f368-5f5d-466d-8890-bf6d04fc47b5" />
+        <option name="url" value="https://github.com/1190202002/Image-segmentation" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -52,6 +67,7 @@
   "keyToString": {
     "Python.Watershed.executor": "Run",
     "Python.dataset.executor": "Debug",
+    "Python.draw.executor": "Run",
     "Python.levelset.executor": "Run",
     "Python.test.executor": "Run",
     "Python.threshold.executor": "Run",
@@ -90,6 +106,9 @@
       <workItem from="1702882907537" duration="14567000" />
       <workItem from="1702906100369" duration="5124000" />
       <workItem from="1702951656988" duration="20312000" />
+      <workItem from="1702979150869" duration="5161000" />
+      <workItem from="1703037465085" duration="736000" />
+      <workItem from="1703137425271" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="threshold">
       <option name="closed" value="true" />
@@ -107,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702911212021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4method">
+      <option name="closed" value="true" />
+      <created>1702979477294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702979477294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,15 +165,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="threshold" />
-    <option name="LAST_COMMIT_MESSAGE" value="threshold" />
+    <MESSAGE value="4method" />
+    <option name="LAST_COMMIT_MESSAGE" value="4method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/imagesegment$draw.coverage" NAME="draw Coverage Results" MODIFIED="1703138666731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/imagesegment$levelset.coverage" NAME="levelset Coverage Results" MODIFIED="1702911188578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/imagesegment$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1702965957374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
     <SUITE FILE_PATH="coverage/imagesegment$unet.coverage" NAME="unet Coverage Results" MODIFIED="1702969121827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
-    <SUITE FILE_PATH="coverage/imagesegment$train.coverage" NAME="train Coverage Results" MODIFIED="1702973829492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
+    <SUITE FILE_PATH="coverage/imagesegment$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1702979939601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
+    <SUITE FILE_PATH="coverage/imagesegment$train.coverage" NAME="train Coverage Results" MODIFIED="1703137790433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
     <SUITE FILE_PATH="coverage/imagesegment$Watershed.coverage" NAME="Watershed Coverage Results" MODIFIED="1702899117624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/imagesegment$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1702717431562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/imagesegment$test.coverage" NAME="test Coverage Results" MODIFIED="1702979070261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
+    <SUITE FILE_PATH="coverage/imagesegment$test.coverage" NAME="test Coverage Results" MODIFIED="1702982049966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Unet" />
   </component>
 </project>

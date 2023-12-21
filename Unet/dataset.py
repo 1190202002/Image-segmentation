@@ -34,6 +34,9 @@ class Datasets(Dataset):
         labelname=self.labellist[index]
         img_o=cv.imread(os.path.join(self.imgpath,imgname))
         img_l=cv.imread(os.path.join(self.labelpath,labelname))
+        #医学图像无彩色，RGB相同，可转为灰度图，节省内存和计算
+        img_o=cv.cvtColor(img_o,cv.COLOR_BGR2GRAY)
+        img_l = cv.cvtColor(img_l, cv.COLOR_BGR2GRAY)
         img_o=self.__trans__(img_o,256)
         img_l = self.__trans__(img_l, 256)
         return self.trans(img_o),self.trans(img_l)
